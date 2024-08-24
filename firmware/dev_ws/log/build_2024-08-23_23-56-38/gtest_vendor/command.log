@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/gtest_vendor
+Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/dev_ws/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/gtest_vendor
+Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor -- -j24 -l24
+Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor -- -j24 -l24
+Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor': /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor
+Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/dev_ws/build/gtest_vendor

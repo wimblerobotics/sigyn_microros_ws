@@ -1,0 +1,45 @@
+[0.442s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log --single-version-externally-managed install_data
+[0.560s] running egg_info
+[0.560s] creating ../../../build/tracetools_launch/tracetools_launch.egg-info
+[0.560s] writing ../../../build/tracetools_launch/tracetools_launch.egg-info/PKG-INFO
+[0.560s] writing dependency_links to ../../../build/tracetools_launch/tracetools_launch.egg-info/dependency_links.txt
+[0.560s] writing entry points to ../../../build/tracetools_launch/tracetools_launch.egg-info/entry_points.txt
+[0.560s] writing requirements to ../../../build/tracetools_launch/tracetools_launch.egg-info/requires.txt
+[0.560s] writing top-level names to ../../../build/tracetools_launch/tracetools_launch.egg-info/top_level.txt
+[0.560s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[0.561s] reading manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[0.562s] writing manifest file '../../../build/tracetools_launch/tracetools_launch.egg-info/SOURCES.txt'
+[0.562s] running build
+[0.562s] running build_py
+[0.562s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build
+[0.562s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib
+[0.562s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[0.562s] copying tracetools_launch/action.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[0.563s] copying tracetools_launch/__init__.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch
+[0.563s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[0.563s] copying tracetools_launch/actions/__init__.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[0.563s] copying tracetools_launch/actions/ld_preload.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions
+[0.563s] running install
+[0.564s] running install_lib
+[0.564s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[0.564s] copying /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/action.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[0.565s] copying /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/__init__.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch
+[0.565s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[0.565s] copying /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/__init__.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[0.565s] copying /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build/lib/tracetools_launch/actions/ld_preload.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions
+[0.566s] byte-compiling /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/action.py to action.cpython-310.pyc
+[0.568s] byte-compiling /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions/__init__.py to __init__.cpython-310.pyc
+[0.568s] byte-compiling /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch/actions/ld_preload.py to ld_preload.cpython-310.pyc
+[0.569s] running install_data
+[0.569s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/tracetools_launch
+[0.569s] creating /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[0.569s] copying launch/example.launch.xml -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[0.569s] copying launch/example.launch.yaml -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[0.570s] copying launch/example.launch.py -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/tracetools_launch/launch
+[0.570s] copying resource/tracetools_launch -> /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/ament_index/resource_index/packages
+[0.570s] running install_egg_info
+[0.572s] Copying ../../../build/tracetools_launch/tracetools_launch.egg-info to /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages/tracetools_launch-4.1.1-py3.10.egg-info
+[0.573s] running install_scripts
+[0.593s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log'
+[0.621s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/uros/tracetools/tracetools_launch' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install:${CMAKE_PREFIX_PATH} PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tracetools_launch build --build-base /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/build install --record /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/tracetools_launch/install.log --single-version-externally-managed install_data

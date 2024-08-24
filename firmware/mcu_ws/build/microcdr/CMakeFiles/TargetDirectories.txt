@@ -1,0 +1,7 @@
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/edit_cache.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/rebuild_cache.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/list_install_components.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/install.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/install/local.dir
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/install/strip.dir

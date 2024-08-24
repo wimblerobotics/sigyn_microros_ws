@@ -1,0 +1,116 @@
+[0.589s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_package': PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data
+[0.675s] running egg_info
+[0.675s] creating ../../build/ament_package/ament_package.egg-info
+[0.675s] writing ../../build/ament_package/ament_package.egg-info/PKG-INFO
+[0.675s] writing dependency_links to ../../build/ament_package/ament_package.egg-info/dependency_links.txt
+[0.676s] writing top-level names to ../../build/ament_package/ament_package.egg-info/top_level.txt
+[0.676s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.677s] reading manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.677s] adding license file 'LICENSE'
+[0.677s] writing manifest file '../../build/ament_package/ament_package.egg-info/SOURCES.txt'
+[0.677s] running build
+[0.677s] running build_py
+[0.677s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build
+[0.677s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib
+[0.678s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.678s] copying ament_package/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.678s] copying ament_package/templates.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package
+[0.678s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[0.678s] copying ament_package/template/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template
+[0.678s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.678s] copying ament_package/template/prefix_level/_local_setup_util.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.678s] copying ament_package/template/prefix_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.678s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.678s] copying ament_package/template/package_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.678s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.678s] copying ament_package/template/isolated_prefix_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.678s] copying ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.679s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/pythonpath.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/ament_prefix_path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/library_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.679s] copying ament_package/template/environment_hook/pkg_config_path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.680s] copying ament_package/template/environment_hook/pythonpath.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.680s] copying ament_package/template/environment_hook/pkg_config_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.680s] copying ament_package/template/environment_hook/ament_prefix_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook
+[0.680s] copying ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.680s] copying ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.680s] copying ament_package/template/isolated_prefix_level/local_setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.680s] copying ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level
+[0.680s] copying ament_package/template/package_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.680s] copying ament_package/template/package_level/local_setup.zsh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.680s] copying ament_package/template/package_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.680s] copying ament_package/template/package_level/local_setup.bash.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level
+[0.680s] copying ament_package/template/prefix_level/setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.680s] copying ament_package/template/prefix_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.680s] copying ament_package/template/prefix_level/local_setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.680s] copying ament_package/template/prefix_level/setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.681s] copying ament_package/template/prefix_level/setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.681s] copying ament_package/template/prefix_level/local_setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.681s] copying ament_package/template/prefix_level/setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.681s] copying ament_package/template/prefix_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level
+[0.681s] running install
+[0.681s] running install_lib
+[0.681s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[0.681s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[0.681s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[0.681s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template
+[0.682s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/_local_setup_util.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/prefix_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level
+[0.682s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.682s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.zsh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/package_level/local_setup.bash.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level
+[0.683s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.zsh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.bash -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/_order_isolated_packages.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/isolated_prefix_level/local_setup.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level
+[0.683s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.bat.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/library_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.bat -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pythonpath.sh.in -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/pkg_config_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/template/environment_hook/ament_prefix_path.sh -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook
+[0.683s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build/lib/ament_package/templates.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package
+[0.683s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/__init__.py to __init__.cpython-310.pyc
+[0.683s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/__init__.py to __init__.cpython-310.pyc
+[0.683s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/_local_setup_util.py to _local_setup_util.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/prefix_level/__init__.py to __init__.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/package_level/__init__.py to __init__.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/__init__.py to __init__.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/isolated_prefix_level/_order_isolated_packages.py to _order_isolated_packages.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/template/environment_hook/__init__.py to __init__.cpython-310.pyc
+[0.685s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package/templates.py to templates.cpython-310.pyc
+[0.686s] running install_data
+[0.686s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/share/ament_package
+[0.686s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/share/ament_index
+[0.686s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index
+[0.686s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[0.686s] copying resource/ament_package -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/share/ament_index/resource_index/packages
+[0.686s] running install_egg_info
+[0.686s] Copying ../../build/ament_package/ament_package.egg-info to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages/ament_package-0.14.0-py3.10.egg-info
+[0.687s] running install_scripts
+[0.696s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/install.log'
+[0.808s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_package' returned '0': PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ament_package build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_package/install.log --single-version-externally-managed install_data

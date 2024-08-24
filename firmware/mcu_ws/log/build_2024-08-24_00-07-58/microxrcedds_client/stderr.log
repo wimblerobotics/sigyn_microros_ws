@@ -1,0 +1,4 @@
+[01m[K/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:[m[K In function '[01m[Kuxr_nanos[m[K':
+[01m[K/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-XRCE-DDS-Client/src/c/util/time.c:71:5:[m[K [01;35m[Kwarning: [m[Kimplicit declaration of function '[01m[Kclock_gettime[m[K' [-Wimplicit-function-declaration]
+     clock_gettime(CLOCK_REALTIME, &ts);
+[01;32m[K     ^[m[K

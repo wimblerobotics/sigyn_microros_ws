@@ -1,0 +1,5 @@
+/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gmock_vendor/CMakeFiles/edit_cache.dir
+/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gmock_vendor/CMakeFiles/rebuild_cache.dir
+/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gmock_vendor/CMakeFiles/list_install_components.dir
+/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gmock_vendor/CMakeFiles/install.dir
+/home/ros/sigyn_microros_ws/firmware/dev_ws/build/gmock_vendor/CMakeFiles/install/local.dir

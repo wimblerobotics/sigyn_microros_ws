@@ -1,0 +1,4 @@
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectory.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/JointTrajectoryPoint.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectory.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/trajectory_msgs/rosidl_adapter/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.idl

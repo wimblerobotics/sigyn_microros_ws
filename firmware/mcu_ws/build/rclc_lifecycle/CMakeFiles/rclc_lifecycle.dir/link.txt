@@ -1,0 +1,2 @@
+/usr/bin/ar qc librclc_lifecycle.a CMakeFiles/rclc_lifecycle.dir/src/rclc_lifecycle/rclc_lifecycle.c.obj
+/usr/bin/ranlib librclc_lifecycle.a

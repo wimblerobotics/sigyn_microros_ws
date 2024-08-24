@@ -1,0 +1,44 @@
+[0.333s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data
+[0.419s] running egg_info
+[0.419s] creating ../../../build/ament_flake8/ament_flake8.egg-info
+[0.419s] writing ../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.419s] writing dependency_links to ../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.419s] writing entry points to ../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.419s] writing requirements to ../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.419s] writing top-level names to ../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.419s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.420s] reading manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.420s] writing manifest file '../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.420s] running build
+[0.420s] running build_py
+[0.420s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build
+[0.420s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib
+[0.420s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.420s] copying ament_flake8/pytest_marker.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.420s] copying ament_flake8/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.420s] copying ament_flake8/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8
+[0.421s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.421s] copying ament_flake8/configuration/ament_flake8.ini -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.421s] running install
+[0.421s] running install_lib
+[0.421s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.421s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.421s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[0.421s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/configuration
+[0.421s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.421s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8
+[0.421s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-310.pyc
+[0.422s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/__init__.py to __init__.cpython-310.pyc
+[0.422s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8/main.py to main.cpython-310.pyc
+[0.423s] running install_data
+[0.423s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_flake8
+[0.423s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index
+[0.423s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index
+[0.423s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.423s] copying resource/ament_flake8 -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/share/ament_index/resource_index/packages
+[0.423s] running install_egg_info
+[0.424s] Copying ../../../build/ament_flake8/ament_flake8.egg-info to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages/ament_flake8-0.12.11-py3.10.egg-info
+[0.424s] running install_scripts
+[0.434s] Installing ament_flake8 script to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin
+[0.434s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/install.log'
+[0.448s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_flake8 build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_flake8/install.log --single-version-externally-managed install_data

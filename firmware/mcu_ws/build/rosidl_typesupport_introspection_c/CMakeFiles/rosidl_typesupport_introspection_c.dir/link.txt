@@ -1,0 +1,2 @@
+/usr/bin/ar qc librosidl_typesupport_introspection_c.a CMakeFiles/rosidl_typesupport_introspection_c.dir/src/identifier.c.obj
+/usr/bin/ranlib librosidl_typesupport_introspection_c.a

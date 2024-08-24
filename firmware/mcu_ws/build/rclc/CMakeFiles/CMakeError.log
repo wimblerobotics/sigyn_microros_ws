@@ -1,0 +1,165 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags:  
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -c 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -Aa 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: missing '(' after predicate
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc1: warning: command line option '-ftarget=arm-arm-none-eabi' is valid for Java but not for C
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: -std=c11;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crti.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crtbegin.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crt0.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lgcc
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags:  
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -c 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: --c++ 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command line option '--c++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: --ec++ 
+
+The output was:
+1
+arm-none-eabi-g++: error: unrecognized command line option '--ec++'
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+1
+cc1plus: warning: command line option '-ftarget=arm-arm-none-eabi' is valid for Java but not for C++
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: -std=c++14;-O2;-mfloat-abi=hard;-mfpu=fpv5-d16;-ffunction-sections;-fdata-sections;-fno-exceptions;-nostdlib;-mcpu=cortex-m7;-mthumb;-D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE';-fno-rtti;-DCLOCK_MONOTONIC=0;-D'__attribute__(x)='
+Id flags: -c;-I__does_not_exist__ 
+
+The output was:
+1
+<command-line>:0:1: error: macro names must be identifiers
+<command-line>:0:1: error: macro names must be identifiers
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crti.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crtbegin.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find crt0.o: No such file or directory
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lstdc++
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lm
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lgcc
+/home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/bin/ld: cannot find -lc
+collect2: error: ld returned 1 exit status
+
+

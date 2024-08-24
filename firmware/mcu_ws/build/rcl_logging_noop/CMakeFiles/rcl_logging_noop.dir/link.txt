@@ -1,0 +1,2 @@
+/usr/bin/ar qc librcl_logging_noop.a CMakeFiles/rcl_logging_noop.dir/src/rcl_logging_noop/rcl_logging_noop.cpp.obj
+/usr/bin/ranlib librcl_logging_noop.a

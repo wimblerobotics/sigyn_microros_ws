@@ -1,0 +1,25 @@
+CMakeFiles/rmw.dir/src/init.c.obj: \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/src/init.c \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/lib/gcc/arm-none-eabi/5.4.1/include/stddef.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/domain_id.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/init.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/lib/gcc/arm-none-eabi/5.4.1/include/stdint.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/stdint.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/machine/_default_types.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/sys/features.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/_newlib_version.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/sys/_intsup.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/arm-none-eabi/include/sys/_stdint.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/init_options.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/allocator.h \
+ /home/ros/aa-arduino-1.8.19/hardware/tools/arm/lib/gcc/arm-none-eabi/5.4.1/include/stdbool.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/macros.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/configuration_flags.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/types/rcutils_ret.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/visibility_control.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/rcutils/rcutils/visibility_control_macros.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/localhost.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/visibility_control.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/macros.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/ret_types.h \
+ /home/ros/sigyn_microros_ws/firmware/mcu_ws/ros2/rmw/rmw/include/rmw/security_options.h

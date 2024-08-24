@@ -1,0 +1,15 @@
+[33mCMake Warning at /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake:116 (message):
+  Package 'rcutils' exports library 'dl' which couldn't be found
+Call Stack (most recent call first):
+  /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)
+  /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)
+  /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_introspection_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_introspection_c/cmake/rosidl_typesupport_introspection_cConfig.cmake:41 (include)
+  CMakeLists.txt:18 (find_package)
+
+[0m
+[01m[K/home/ros/sigyn_microros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c:[m[K In function '[01m[Kprint_type_info[m[K':
+[01m[K/home/ros/sigyn_microros_ws/firmware/mcu_ws/uros/micro_ros_utilities/src/type_utilities.c:96:31:[m[K [01;35m[Kwarning: [m[Kformat '[01m[K%u[m[K' expects argument of type '[01m[Kunsigned int[m[K', but argument 7 has type '[01m[Kuint32_t {aka const long unsigned int}[m[K' [-Wformat=]
+       buffer, sizeof(buffer), "%sIntrospection for %s/%s - %u members, %zu B\n",
+[01;32m[K                               ^[m[K

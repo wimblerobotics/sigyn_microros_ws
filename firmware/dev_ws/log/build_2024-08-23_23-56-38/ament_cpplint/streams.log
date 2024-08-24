@@ -1,0 +1,40 @@
+[0.979s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data
+[1.082s] running egg_info
+[1.082s] creating ../../../build/ament_cpplint/ament_cpplint.egg-info
+[1.082s] writing ../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+[1.082s] writing dependency_links to ../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+[1.082s] writing entry points to ../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+[1.082s] writing requirements to ../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+[1.082s] writing top-level names to ../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+[1.082s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.083s] reading manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.083s] writing manifest file '../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+[1.084s] running build
+[1.084s] running build_py
+[1.084s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build
+[1.084s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib
+[1.084s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.084s] copying ament_cpplint/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.084s] copying ament_cpplint/cpplint.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.084s] copying ament_cpplint/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint
+[1.084s] running install
+[1.084s] running install_lib
+[1.085s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[1.085s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[1.085s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[1.085s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint
+[1.086s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/__init__.py to __init__.cpython-310.pyc
+[1.086s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-310.pyc
+[1.100s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint/main.py to main.cpython-310.pyc
+[1.101s] running install_data
+[1.101s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_cpplint
+[1.101s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index
+[1.101s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index
+[1.101s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.101s] copying resource/ament_cpplint -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/share/ament_index/resource_index/packages
+[1.101s] running install_egg_info
+[1.102s] Copying ../../../build/ament_cpplint/ament_cpplint.egg-info to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages/ament_cpplint-0.12.11-py3.10.egg-info
+[1.103s] running install_scripts
+[1.114s] Installing ament_cpplint script to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/bin
+[1.114s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/install.log'
+[1.134s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_cpplint' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cpplint/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_cpplint build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cpplint/install.log --single-version-externally-managed install_data

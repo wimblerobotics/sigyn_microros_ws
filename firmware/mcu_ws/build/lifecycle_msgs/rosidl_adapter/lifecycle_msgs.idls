@@ -1,0 +1,8 @@
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
+/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

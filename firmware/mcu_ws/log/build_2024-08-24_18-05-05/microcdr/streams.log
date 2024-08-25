@@ -1,0 +1,113 @@
+[0.149s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ros/sigyn_microros_ws/sigyn_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install
+[0.379s] Not searching for unused variables given on the command line.
+[0.380s] -- The C compiler identification is GNU 5.4.1
+[0.380s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc - skipped
+[0.380s] -- Detecting C compile features
+[0.380s] -- Detecting C compile features - done
+[0.398s] -- The CXX compiler identification is GNU 5.4.1
+[0.403s] -- Detecting CXX compiler ABI info
+[0.469s] -- Detecting CXX compiler ABI info - done
+[0.474s] -- Check for working CXX compiler: /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-g++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.475s] -- Detecting CXX compile features - done
+[0.481s] -- Configuring done
+[0.483s] -- Generating done
+[0.484s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr
+[0.493s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR --no-warn-unused-cli -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=OFF -DTHIRDPARTY=ON -DBUILD_SHARED_LIBS=OFF -DBUILD_TESTING=OFF -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE=/home/ros/sigyn_microros_ws/sigyn_toolchain.cmake -DCMAKE_VERBOSE_MAKEFILE=ON -DUCDR_ISOLATED_INSTALL=OFF -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install
+[0.494s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr -- -j24 -l24
+[0.506s] /usr/bin/cmake -S/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[0.511s] /usr/bin/cmake -E cmake_progress_start /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[0.516s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.517s] gmake[1]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.517s] /usr/bin/gmake  -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/depend
+[0.518s] gmake[2]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.518s] cd /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr.dir/DependInfo.cmake --color=
+[0.523s] gmake[2]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.524s] /usr/bin/gmake  -f CMakeFiles/ucdr.dir/build.make CMakeFiles/ucdr.dir/build
+[0.524s] gmake[2]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.529s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[0.530s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[0.535s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr
+[0.540s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix
+[0.545s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp
+[0.550s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[0.554s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src
+[0.559s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp
+[0.564s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir
+[0.572s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[0.573s] /usr/bin/cmake -E echo_append
+[0.578s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download
+[0.587s] [ 37%] [34m[1mNo update step for 'ucdr'[0m
+[0.587s] /usr/bin/cmake -E echo_append
+[0.592s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update
+[0.600s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[0.601s] /usr/bin/cmake -E echo_append
+[0.605s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch
+[0.614s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[0.615s] /usr/bin/cmake "-GUnix Makefiles" -C/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR
+[0.620s] loading initial cache file /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[0.620s] Re-run cmake no build system arguments
+[0.624s] -- Configuring done
+[0.625s] -- Generating done
+[0.626s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr
+[0.627s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure
+[0.636s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[0.637s] /usr/bin/gmake
+[0.638s] gmake[3]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.638s] /usr/bin/cmake -S/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR -B/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr --check-build-system CMakeFiles/Makefile.cmake 0
+[0.642s] /usr/bin/cmake -E cmake_progress_start /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr//CMakeFiles/progress.marks
+[0.647s] /usr/bin/gmake  -f CMakeFiles/Makefile2 all
+[0.647s] gmake[4]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.647s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/depend
+[0.648s] gmake[5]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.648s] cd /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/microcdr.dir/DependInfo.cmake --color=
+[0.653s] gmake[5]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.653s] /usr/bin/gmake  -f CMakeFiles/microcdr.dir/build.make CMakeFiles/microcdr.dir/build
+[0.654s] gmake[5]: Entering directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.658s] [ 16%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.obj[0m
+[0.658s] [ 33%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.obj[0m
+[0.659s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.obj[0m
+[0.659s] [ 66%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.obj[0m
+[0.659s] /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc  -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -mcpu=cortex-m7 -mthumb -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/common.c.obj -MF CMakeFiles/microcdr.dir/src/c/common.c.obj.d -o CMakeFiles/microcdr.dir/src/c/common.c.obj -c /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/common.c
+[0.659s] /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc  -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -mcpu=cortex-m7 -mthumb -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/string.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/string.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/string.c.obj -c /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/string.c
+[0.659s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj[0m
+[0.660s] /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc  -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -mcpu=cortex-m7 -mthumb -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/basic.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/basic.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/basic.c.obj -c /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/basic.c
+[0.660s] /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc  -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -mcpu=cortex-m7 -mthumb -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/array.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/array.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/array.c.obj -c /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/array.c
+[0.660s] /home/ros/aa-arduino-1.8.19/hardware/tools/arm/bin/arm-none-eabi-gcc  -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/include -I/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/include -std=c11 -O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sections -fno-exceptions -nostdlib -mcpu=cortex-m7 -mthumb -D'RCUTILS_LOG_MIN_SEVERITY=RCUTILS_LOG_MIN_SEVERITY_NONE' -DCLOCK_MONOTONIC=0 -D'__attribute__(x)=' -O3 -DNDEBUG -fPIC -Wall -Wextra -Wshadow -pedantic -Wcast-align -Wunused -Wconversion -Wdouble-promotion -Wsign-conversion -fdata-sections -ffunction-sections -std=gnu99 -MD -MT CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj -MF CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj.d -o CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj -c /home/ros/sigyn_microros_ws/firmware/mcu_ws/eProsima/Micro-CDR/src/c/types/sequence.c
+[0.859s] [100%] [32m[1mLinking C static library libmicrocdr.a[0m
+[0.860s] /usr/bin/cmake -P CMakeFiles/microcdr.dir/cmake_clean_target.cmake
+[0.864s] /usr/bin/cmake -E cmake_link_script CMakeFiles/microcdr.dir/link.txt --verbose=1
+[0.867s] /usr/bin/ar qc libmicrocdr.a CMakeFiles/microcdr.dir/src/c/common.c.obj CMakeFiles/microcdr.dir/src/c/types/basic.c.obj CMakeFiles/microcdr.dir/src/c/types/string.c.obj CMakeFiles/microcdr.dir/src/c/types/array.c.obj CMakeFiles/microcdr.dir/src/c/types/sequence.c.obj
+[0.880s] /usr/bin/ranlib libmicrocdr.a
+[0.892s] gmake[5]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.897s] [100%] Built target microcdr
+[0.898s] gmake[4]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.898s] /usr/bin/cmake -E cmake_progress_start /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[0.902s] gmake[3]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.902s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build
+[0.910s] [34m[1mNo install step for 'ucdr'[0m
+[0.911s] /usr/bin/cmake -E echo_append
+[0.916s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install
+[0.927s] [34m[1mCompleted 'ucdr'[0m
+[0.928s] /usr/bin/cmake -E make_directory /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles
+[0.932s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles/ucdr-complete
+[0.937s] /usr/bin/cmake -E touch /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-done
+[0.941s] gmake[2]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.946s] Built target ucdr
+[0.947s] gmake[1]: Leaving directory '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr'
+[0.947s] /usr/bin/cmake -E cmake_progress_start /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr/CMakeFiles 0
+[0.953s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr -- -j24 -l24
+[0.978s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr': /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr
+[0.983s] -- Install configuration: "Release"
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/libmicrocdr.a
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/ucdr
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/ucdr/visibility.h
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/ucdr/microcdr.h
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/include/ucdr/config.h
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets.cmake
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfig.cmake
+[0.983s] -- Installing: /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.985s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/mcu_ws/build/microcdr

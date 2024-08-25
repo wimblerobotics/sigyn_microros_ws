@@ -1,0 +1,37 @@
+[0.961s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data
+[1.058s] running egg_info
+[1.059s] creating ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[1.059s] writing ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.059s] writing dependency_links to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.059s] writing entry points to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.059s] writing requirements to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.059s] writing top-level names to ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.059s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.060s] reading manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.060s] writing manifest file '../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.060s] running build
+[1.060s] running build_py
+[1.060s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build
+[1.061s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib
+[1.061s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.061s] copying ament_clang_tidy/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.061s] copying ament_clang_tidy/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.061s] running install
+[1.062s] running install_lib
+[1.062s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[1.062s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[1.062s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy
+[1.062s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-310.pyc
+[1.062s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy/main.py to main.cpython-310.pyc
+[1.063s] running install_data
+[1.063s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_clang_tidy
+[1.063s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index
+[1.063s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index
+[1.063s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.063s] copying resource/ament_clang_tidy -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[1.063s] running install_egg_info
+[1.064s] Copying ../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages/ament_clang_tidy-0.12.11-py3.10.egg-info
+[1.064s] running install_scripts
+[1.075s] Installing ament_clang_tidy script to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/bin
+[1.075s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log'
+[1.091s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_clang_tidy/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ament_clang_tidy build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_clang_tidy/install.log --single-version-externally-managed install_data

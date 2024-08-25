@@ -82,7 +82,6 @@ _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmw_implementatio
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmw_implementation/hook/path.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmw_implementation/hook/pythonpath.sh"
 _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmw_implementation/hook/pythonscriptspath.sh"
-_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/rmw_implementation/local_setup.sh"
 
 unset _colcon_package_sh_source_script
 unset COLCON_CURRENT_PREFIX

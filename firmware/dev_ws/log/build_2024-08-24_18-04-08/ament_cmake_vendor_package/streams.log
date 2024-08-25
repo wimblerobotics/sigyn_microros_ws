@@ -1,0 +1,165 @@
+[0.007s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package
+[0.015s] -- Found ament_cmake_core: 1.3.10 (/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core/share/ament_cmake_core/cmake)
+[0.103s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.134s] -- Found ament_cmake_export_dependencies: 1.3.10 (/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.234s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.279s] -- Detecting C compile features - done
+[0.280s] -- Detecting CXX compiler ABI info
+[0.325s] -- Detecting CXX compiler ABI info - done
+[0.329s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.329s] -- Detecting CXX compile features
+[0.329s] -- Detecting CXX compile features - done
+[0.330s] -- Found ament_cmake_test: 1.3.10 (/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/share/ament_cmake_test/cmake)
+[0.348s] -- Configuring done
+[0.358s] -- Generating done
+[0.360s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package
+[0.654s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/sigyn_microros_ws/firmware/dev_ws/ament/ament_cmake/ament_cmake_vendor_package -DCMAKE_INSTALL_PREFIX=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package
+[0.655s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package -- -j24 -l24
+[0.853s] [  4%] [34m[1mCreating directories for 'exlib_good'[0m
+[0.853s] [  9%] [34m[1mCreating directories for 'exlib_bad'[0m
+[0.853s] [ 14%] [34m[1mNo download step for 'exlib_good'[0m
+[0.853s] [ 19%] [34m[1mNo download step for 'exlib_bad'[0m
+[0.853s] [ 23%] [34m[1mNo patch step for 'exlib_good'[0m
+[0.853s] [ 28%] [34m[1mNo patch step for 'exlib_bad'[0m
+[0.853s] [ 33%] [34m[1mPerforming configure step for 'exlib_good'[0m
+[0.853s] [ 38%] [34m[1mPerforming configure step for 'exlib_bad'[0m
+[0.853s] loading initial cache file /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-config.cmake
+[0.854s] loading initial cache file /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-config.cmake
+[0.854s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The C compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[0.854s] -- The CXX compiler identification is GNU 11.4.0
+[0.854s] -- Detecting C compiler ABI info
+[0.854s] -- Detecting C compiler ABI info
+[0.862s] -- Detecting C compiler ABI info - done
+[0.862s] -- Detecting C compiler ABI info - done
+[0.866s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.866s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.868s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.868s] -- Detecting CXX compiler ABI info
+[0.868s] -- Detecting C compile features
+[0.869s] -- Detecting C compile features - done
+[0.870s] -- Detecting CXX compiler ABI info
+[0.923s] -- Detecting CXX compiler ABI info - done
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.926s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.927s] -- Detecting CXX compile features
+[0.927s] -- Detecting CXX compile features - done
+[0.928s] -- Configuring done
+[0.929s] -- Generating done
+[0.930s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/src/exlib_good-build
+[0.931s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.932s] -- Detecting CXX compile features
+[0.932s] -- Detecting CXX compile features - done
+[0.933s] -- Configuring done
+[0.935s] -- Generating done
+[0.937s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/src/exlib_bad-build
+[0.942s] [ 42%] [34m[1mPerforming build step for 'exlib_good'[0m
+[0.951s] [ 47%] [34m[1mPerforming build step for 'exlib_bad'[0m
+[0.967s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[0.976s] [ 50%] [32mBuilding C object CMakeFiles/exlib.dir/src/exlib.c.o[0m
+[0.981s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[0.990s] [100%] [32m[1mLinking C shared library libexlib.so[0m
+[0.999s] [100%] Built target exlib
+[1.008s] [100%] Built target exlib
+[1.017s] [ 52%] [34m[1mPerforming install step for 'exlib_good'[0m
+[1.026s] [ 57%] [34m[1mPerforming install step for 'exlib_bad'[0m
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target exlib[0m
+[1.044s] [100%] Built target exlib
+[1.045s] [35m[1mConsolidate compiler generated dependencies of target exlib[0m
+[1.053s] [100%] Built target exlib
+[1.055s] [36mInstall the project...[0m
+[1.061s] -- Install configuration: ""
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/libexlib.so
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/exlib.h
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/include/exlib/visibility_control.h
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.061s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_good-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.065s] [36mInstall the project...[0m
+[1.071s] -- Install configuration: ""
+[1.071s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/libexlib.so
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/exlib.h
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/include/exlib/visibility_control.h
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets.cmake
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibTargets-noconfig.cmake
+[1.072s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/exlib_bad-prefix/install/lib/cmake/exlib/exlibConfig.cmake
+[1.073s] [ 61%] [34m[1mCompleted 'exlib_good'[0m
+[1.083s] [ 66%] [34m[1mCompleted 'exlib_bad'[0m
+[1.096s] [ 66%] Built target exlib_good
+[1.103s] [ 66%] Built target exlib_bad
+[1.116s] [ 71%] [34m[1mCreating directories for 'depender'[0m
+[1.163s] [ 76%] [34m[1mNo download step for 'depender'[0m
+[1.176s] [ 80%] [34m[1mNo patch step for 'depender'[0m
+[1.189s] [ 85%] [34m[1mPerforming configure step for 'depender'[0m
+[1.194s] loading initial cache file /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-config.cmake
+[1.221s] -- The C compiler identification is GNU 11.4.0
+[1.251s] -- The CXX compiler identification is GNU 11.4.0
+[1.256s] -- Detecting C compiler ABI info
+[1.296s] -- Detecting C compiler ABI info - done
+[1.301s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.301s] -- Detecting C compile features
+[1.301s] -- Detecting C compile features - done
+[1.302s] -- Detecting CXX compiler ABI info
+[1.348s] -- Detecting CXX compiler ABI info - done
+[1.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.351s] -- Detecting CXX compile features
+[1.352s] -- Detecting CXX compile features - done
+[1.352s] -- Configuring done
+[1.354s] -- Generating done
+[1.354s] -- Build files have been written to: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-build
+[1.365s] [ 90%] [34m[1mPerforming build step for 'depender'[0m
+[1.387s] [ 50%] [32mBuilding C object CMakeFiles/depender.dir/src/depender.c.o[0m
+[1.403s] [100%] [32m[1mLinking C executable depender[0m
+[1.424s] [100%] Built target depender
+[1.437s] [ 95%] [34m[1mPerforming install step for 'depender'[0m
+[1.454s] [35m[1mConsolidate compiler generated dependencies of target depender[0m
+[1.460s] [100%] Built target depender
+[1.470s] [36mInstall the project...[0m
+[1.474s] -- Install configuration: ""
+[1.474s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender
+[1.474s] -- Set runtime path of "/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package/test/depender-prefix/install/bin/depender" to ""
+[1.485s] [100%] [34m[1mCompleted 'depender'[0m
+[1.504s] [100%] Built target depender
+[1.512s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package -- -j24 -l24
+[1.537s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package
+[1.541s] -- Install configuration: ""
+[1.541s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/package_run_dependencies/ament_cmake_vendor_package
+[1.541s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/parent_prefix_path/ament_cmake_vendor_package
+[1.541s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.sh
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/ament_prefix_path.dsv
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.sh
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/environment/path.dsv
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.bash
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.sh
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.zsh
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/local_setup.dsv
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.dsv
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_index/resource_index/packages/ament_cmake_vendor_package
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_package-extras.cmake
+[1.542s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig.cmake
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_cmake_vendor_packageConfig-version.cmake
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/package.xml
+[1.543s] -- Up-to-date: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/ament_vendor.cmake
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/target.repos.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.sh.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.sh.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.dsv.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.bat.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.dsv.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package_cmake_prefix.cmake.in
+[1.543s] -- Installing: /home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_vendor_package/share/ament_cmake_vendor_package/cmake/templates/vendor_package.bat.in
+[1.545s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package CMAKE_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_export_dependencies:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_python:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_libraries:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_core PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_test/local/lib/python3.10/dist-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros/sigyn_microros_ws/firmware/dev_ws/build/ament_cmake_vendor_package

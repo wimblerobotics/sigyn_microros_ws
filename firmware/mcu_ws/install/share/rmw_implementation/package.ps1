@@ -114,6 +114,5 @@ colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/rmw_im
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/rmw_implementation/hook/path.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/rmw_implementation/hook/pythonpath.ps1"
 colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/rmw_implementation/hook/pythonscriptspath.ps1"
-colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX\share/rmw_implementation/local_setup.ps1"
 
 Remove-Item Env:\COLCON_CURRENT_PREFIX

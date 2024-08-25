@@ -1,0 +1,35 @@
+[1.002s] Invoking command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed install_data
+[1.109s] running egg_info
+[1.110s] creating ../../../build/domain_coordinator/domain_coordinator.egg-info
+[1.110s] writing ../../../build/domain_coordinator/domain_coordinator.egg-info/PKG-INFO
+[1.110s] writing dependency_links to ../../../build/domain_coordinator/domain_coordinator.egg-info/dependency_links.txt
+[1.110s] writing requirements to ../../../build/domain_coordinator/domain_coordinator.egg-info/requires.txt
+[1.110s] writing top-level names to ../../../build/domain_coordinator/domain_coordinator.egg-info/top_level.txt
+[1.110s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.111s] reading manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.111s] writing manifest file '../../../build/domain_coordinator/domain_coordinator.egg-info/SOURCES.txt'
+[1.111s] running build
+[1.111s] running build_py
+[1.111s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build
+[1.111s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib
+[1.111s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.111s] copying domain_coordinator/impl.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.111s] copying domain_coordinator/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator
+[1.111s] running install
+[1.112s] running install_lib
+[1.112s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.112s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/impl.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.112s] copying /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build/lib/domain_coordinator/__init__.py -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator
+[1.112s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/impl.py to impl.cpython-310.pyc
+[1.112s] byte-compiling /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator/__init__.py to __init__.cpython-310.pyc
+[1.112s] running install_data
+[1.113s] copying package.xml -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/share/domain_coordinator
+[1.113s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index
+[1.113s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index
+[1.113s] creating /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[1.113s] copying resource/domain_coordinator -> /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/share/ament_index/resource_index/packages
+[1.113s] running install_egg_info
+[1.114s] Copying ../../../build/domain_coordinator/domain_coordinator.egg-info to /home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages/domain_coordinator-0.10.0-py3.10.egg-info
+[1.114s] running install_scripts
+[1.126s] writing list of installed files to '/home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/install.log'
+[1.137s] Invoked command in '/home/ros/sigyn_microros_ws/firmware/dev_ws/ros2/ament_cmake_ros/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/bin:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/domain_coordinator/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_copyright/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_pep257/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_flake8/lib/python3.10/site-packages:/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/domain_coordinator build --build-base /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/build install --record /home/ros/sigyn_microros_ws/firmware/dev_ws/build/domain_coordinator/install.log --single-version-externally-managed install_data

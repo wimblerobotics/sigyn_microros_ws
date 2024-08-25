@@ -1,0 +1,7 @@
+[31mCMake Error at /home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake:60 (message):
+  Could not find ROS middleware implementation 'rmw_cyclonedds_cpp'.  Choose
+  one of the following: rmw_microxrcedds
+Call Stack (most recent call first):
+  CMakeLists.txt:22 (get_default_rmw_implementation)
+
+[0m

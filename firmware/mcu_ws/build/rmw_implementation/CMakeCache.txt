@@ -244,17 +244,11 @@ FLAGS:STRING=-O2 -mfloat-abi=hard -mfpu=fpv5-d16 -ffunction-sections -fdata-sect
 //Path to a program.
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
-//  Use only the RMW implementation specified at build time via
-// the   'RMW_IMPLEMENTATION' environment variable and the 'RMW_IMPLEMENTATION'
-//   CMake option, ignoring the runtime value of the 'RMW_IMPLEMENTATION'
-//   environment variable
-RMW_IMPLEMENTATION_DISABLE_RUNTIME_SELECTION:BOOL=ON
+//Select ROS middleware implementation to link against
+RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 
 //No help, variable specified on the command line.
 THIRDPARTY:UNINITIALIZED=ON
-
-//Path to a library.
-_lib:FILEPATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/lib/librosidl_typesupport_microxrcedds_c.a
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake/share/ament_cmake/cmake
@@ -304,18 +298,6 @@ ament_cmake_test_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/am
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/dev_ws/install/ament_cmake_version/share/ament_cmake_version/cmake
 
-//The directory containing a CMake configuration file for microcdr.
-microcdr_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microcdr/cmake
-
-//The directory containing a CMake configuration file for microxrcedds_client.
-microxrcedds_client_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/microxrcedds_client/cmake
-
-//The directory containing a CMake configuration file for rcutils.
-rcutils_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rcutils/cmake
-
-//The directory containing a CMake configuration file for rmw.
-rmw_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rmw/cmake
-
 //Value Computed by CMake
 rmw_implementation_BINARY_DIR:STATIC=/home/ros/sigyn_microros_ws/firmware/mcu_ws/build/rmw_implementation
 
@@ -327,24 +309,6 @@ rmw_implementation_SOURCE_DIR:STATIC=/home/ros/sigyn_microros_ws/firmware/mcu_ws
 
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rmw_implementation_cmake/cmake
-
-//The directory containing a CMake configuration file for rmw_microxrcedds.
-rmw_microxrcedds_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rmw_microxrcedds/cmake
-
-//The directory containing a CMake configuration file for rosidl_adapter.
-rosidl_adapter_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_adapter/cmake
-
-//The directory containing a CMake configuration file for rosidl_cmake.
-rosidl_cmake_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_cmake/cmake
-
-//The directory containing a CMake configuration file for rosidl_runtime_c.
-rosidl_runtime_c_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_runtime_c/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_interface.
-rosidl_typesupport_interface_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_interface/cmake
-
-//The directory containing a CMake configuration file for rosidl_typesupport_microxrcedds_c.
-rosidl_typesupport_microxrcedds_c_DIR:PATH=/home/ros/sigyn_microros_ws/firmware/mcu_ws/install/share/rosidl_typesupport_microxrcedds_c/cmake
 
 
 ########################
